@@ -1,0 +1,70 @@
+{
+  "posts":[
+    {
+      "image" : "image1",
+      "name" : "name1",
+      "date" : "date1",
+      "post" : "post1",
+      "like" : 5,
+      "dislike" : 7,
+      "comment" :[
+        {
+          "image" : "commentImage1",
+          "name" : "commentName1",
+          "date" : "commentDate1",
+          "like" : 2,
+          "dislike" : 3,
+          "reply" :[
+            {
+              "image" : "replyImage1",
+              "name" : "replyName1",
+              "date" : "replyDate1",
+              "like" : 2,
+              "dislike" : 3
+            },
+            {
+              "image" : "replyImage2",
+              "name" : "replyName2",
+              "date" : "replyDate2",
+              "like" : 2,
+              "dislike" : 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image" : "image2",
+      "name" : "name2",
+      "date" : "date2",
+      "post" : "post2",
+      "like" : 5,
+      "dislike" : 7,
+      "comment" :[
+        {
+          "image" : "commentImage2",
+          "name" : "commentName2",
+          "date" : "commentDate1",
+          "like" : 2,
+          "dislike" : 3,
+          "reply" :[
+            {
+              "image" : "replyImage1",
+              "name" : "replyName1",
+              "date" : "replyDate1",
+              "like" : 2,
+              "dislike" : 3
+            },
+            {
+              "image" : "replyImage2",
+              "name" : "replyName2",
+              "date" : "replyDate2",
+              "like" : 2,
+              "dislike" : 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
